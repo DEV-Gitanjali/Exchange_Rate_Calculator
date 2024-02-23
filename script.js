@@ -6,6 +6,20 @@ const amountEl_two =  document.getElementById('currency-two');
 const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
+// fetch exchange rates and updates the DOM
+function calculate(){}
+
+
+
+// event listener
+currencyEl_one.addEventListener('change' ,calculate);
+amountEl_one.addEventListener('input' ,calculate);
+currencyEl_two.addEventListener('change' ,calculate);
+amountEl_two.addEventListener('input' ,calculate);
+
+
+
+
 
 
 
